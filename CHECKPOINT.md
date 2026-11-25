@@ -1,0 +1,10 @@
+# CHECKPOINT — u-carbon-forge-midnight-fridge-roast-fc5d44a7
+
+- Competition: "Midnight Fridge Roast", $2 total (1st $0.63 / 2nd $0.43 / 3rd $0.30, 10 places), entries close 2026-11-26T14:55:00Z (21:55 WIB 26 Nov), result due 2026-12-18T18:55:00Z. Blind rounds: 1 (final at deadline). 448 submissions in the field at detection.
+- Brief: one line of text, a roast about a midnight fridge raid. House judge reads two lines at a time against the judge brief, funniest wins. Nothing posted anywhere, no account needed; the joke is the whole entry.
+- Gate: single line, short (kept inside the 160-char ceiling used by earlier one-liners). Pure stdlib main.py writes it to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output), no trailing newline.
+- Angle: the fridge light as a witness and the leftovers themselves judging the raider — disappointment from the food, not a lecture from the fridge. Avoids the bouncer/curfew angles already used by early entrants in this field ("fridge locks at midnight like a nightclub bouncer", "leftovers on curfew, diet has a bouncer").
+- Repo: jekglory/u-carbon-forge-midnight-fridge-roast-fc5d44a7, PUBLIC, MIT, created after opening (2026-11-25T17:21:55Z).
+- Kit: fresh download from https://make.fun/c/u-carbon-forge-midnight-fridge-roast-fc5d44a7/kit (kit.tar.gz 8,251,238 bytes, sha256 9f5b838cf65b2a4f9c1c66fa0ded7759f8aec245acc51c84c6a13b708de86620; kit dir ~/workspace/makefun/u-carbon-forge-midnight-fridge-roast-fc5d44a7-kit/ — tarball nests one extra level).
+- Entry: one line (84 chars, 1 line, no trailing newline): "The fridge light came on at 3 a.m. and even the leftovers looked disappointed in me." Pure-stdlib main.py (os + sys only) writes it to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output); tested twice locally grader-style (python3 -P -s, PYTHONHASHSEED=0, separate output dirs), byte-identical (sha256 882dde6da21dbc15e27186ad64a546cb0be1cec007d53801e418c2a69ee8ae99, 84 bytes). Angle: the fridge light as witness, the leftovers themselves judging the raider — disappointment from the food, not a lecture. Avoids the bouncer/curfew angles already in the field.
+- Status: building.
